@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mySpotify.css">
+
+
+    <title>mySpotify- Your Music</title>
+
+</head>
+
+<body>
+  <style type='text/css' >body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/purple_stars.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}</style>
+   <nav>
+    <ul>
+        <li class="brand"> <img src="logo.png" alt="mySpotify">
+         mySpotify</li>
+        <li><a class="req" href="https://open.spotify.com/" target="_blank"> &nbsp Home &nbsp </a></li>
+        <li> <a class="req" href="https://newsroom.spotify.com/company-info/" target="_blank">About </a></li>
+
+    </ul>
+
+   </nav>
+   
+    
+  <div class="container">
+   
+   
+
+    <div class="songList">
+      <h1> Best of NCS - No Copyright Songs</h1>
+     <div class="songitemContainer">
+      <div class="songItem">   <img src="cover1.jpg" alt="1."> <span class="songName"><b></b> </span>
+      <span><b>02:31</b> <span class="timeStamp"><i id="0" class="fa-solid songItemsPlay fa-play-circle"></i></span></span> </div>
+
+      <div class="songItem">   <img src="cover1.jpg" alt="1."> <span class="songName"> <b></b></span>
+        <span><b>02:45 </b><span class="timeStamp"><i id="1" class="fa-solid songItemsPlay fa-play-circle"></i></span></span> </div>
+
+        <div class="songItem">   <img src="cover1.jpg" alt="1."> <span class="songName"><b></b> </span>
+          <span><b>02:01</b> <span class="timeStamp"><i id="2" class="fa-solid songItemsPlay fa-play-circle"></i></span></span> </div>
+
+        </div>
+    </div>
+    <div class="songbanner"> </div>
+
+  </div>
+   
+
+  <nav class ="bottom">
+    
+
+    <!-- value of input type range gives initial value after loading of web page -->
+ 
+    <input type="range" id="myProgressBar" name="range" value="0" min="0" max="100">
+    <div class="icons"> 
+
+        <!-- fontawesome icons  -->
+
+        <i id="previous" class="fa-solid fa-3x fa-backward"></i>&nbsp 
+        <i id="masterplay" class="fa-solid fa-3x fa-play-circle" ></i>&nbsp
+        <i id="next" class="fa-solid fa-3x fa-forward"></i>
+   
+        <div class="songInfo">
+          <img src='playing.gif' width="420px" alt="gif" id="gif"><span id="nam"></span>
+        </div>
+    </div>
+  </nav>
+  <script src="https://kit.fontawesome.com/3c26de0199.js" crossorigin="anonymous"></script>
+    <script src="mySpotify.js"></script>
+
+</body> 
+
+
+</html>
