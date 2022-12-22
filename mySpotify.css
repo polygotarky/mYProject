@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+
+
+body {
+    background-color: antiquewhite;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65 px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.brand img {
+
+    width: 44px;
+    padding: 0 5px;
+
+
+
+}
+
+nav ul li {
+
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container {
+
+    display: flex;
+    font-size:13px;
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 23px auto;
+    width: 51%;
+    border-radius: 12px;
+    background-image:url('girl.jpg');
+    background-repeat:no-repeat;
+
+
+
+
+
+}
+ 
+.bottom {
+
+    display: flex;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+
+}
+
+
+
+.icons {
+
+    margin-top: 14px;
+    cursor: pointer;
+
+}
+
+#myProgressBar {
+
+    width: 75vw;
+    cursor: pointer;
+
+
+}
+
+.songItem {
+  
+    display:flex;
+    height:50px;
+    width:80%;
+    background-color:white;
+    color:black;
+    margin:12px 0;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:12px;
+    cursor:pointer;
+
+
+}
+
+.songitemContainer {
+
+    margin:70px 0;
+}
+
+.songItem img {
+  width:43px;
+  margin:0 12px;
+
+  border-radius:34px;
+
+}
+
+.timeStamp{
+
+    margin :0 12px;
+   
+
+
+}
+
+.timestamp i{
+
+    cursor:pointer;
+}
+
+.songInfo img {
+
+  height:11px;
+  width:34px;
+  opacity:0;
+  transition:opacity 0.4s ease-in;
+
+}
+
+.songInfo{
+
+    position:absolute;
+    left:92px;
+    top:550px;
+    color:white;
+}
+
+
+a{
+    color:white;
+}
+
+a:hover{
+    background-color:rgb(13, 181, 242);
+    padding :10 20px;
+    font-size:20px;
+}
+
+.songName{
+    font-weight:bolder;
+    
+}
